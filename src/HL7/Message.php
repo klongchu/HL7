@@ -404,7 +404,7 @@ class Message
      */
     private function setSeparators(string $msh): void
     {
-        if (!preg_match('/^([A-Z0-9]{3})(.)(.)(.)(.)(.)(.)/', $msh, $matches)) {
+        if (!preg_match('/^([A-Z0-9]{3})(.)(.)(.)(.)(.)(.)/', str_replace("^\&","^~\&",$msh), $matches)) {
             throw new HL7Exception('Not a valid message: invalid control segment', E_USER_ERROR);
         }
 
