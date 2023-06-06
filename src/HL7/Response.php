@@ -1,6 +1,6 @@
 <?php
 
-namespace Aranyasen\HL7;
+namespace Klongchu\HL7;
 
 class Response
 {

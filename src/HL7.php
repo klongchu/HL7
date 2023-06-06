@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen;
+namespace Klongchu;
 
-use Aranyasen\Exceptions\HL7Exception;
+use Klongchu\Exceptions\HL7Exception;
 use Exception;
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Segments\MSH;
+use Klongchu\HL7\Message;
+use Klongchu\HL7\Segments\MSH;
 
 /**
  * The HL7 class is a factory class for HL7 messages.

@@ -1,4 +1,4 @@
-# Aranyasen\HL7\Segments\IN1  
+# Klongchu\HL7\Segments\IN1  
 
 IN1 segment class
 Ref: https://corepointhealth.com/resource-center/hl7-resources/hl7-in1-insurance-segment
@@ -7,7 +7,7 @@ Ref: https://corepointhealth.com/resource-center/hl7-resources/hl7-in1-insurance
 
 ## Extend:
 
-Aranyasen\HL7\Segment
+Klongchu\HL7\Segment
 
 ## Methods
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7;
+namespace Klongchu\HL7;
 
 use InvalidArgumentException;
 

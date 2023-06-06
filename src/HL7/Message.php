@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7;
+namespace Klongchu\HL7;
 
-use Aranyasen\Exceptions\HL7Exception;
+use Klongchu\Exceptions\HL7Exception;
 use InvalidArgumentException;
 
 /**
@@ -360,7 +360,7 @@ class Message
 
         // Go through each available segment class and reset its ID
         foreach ($segments as $file) { // ['OBR', 'PID', 'OBX', 'IN1'...]
-            $className = "Aranyasen\\HL7\\Segments\\" . pathinfo($file, PATHINFO_FILENAME);
+            $className = "Klongchu\\HL7\\Segments\\" . pathinfo($file, PATHINFO_FILENAME);
             if (class_exists($className) && method_exists($className, 'resetIndex')) {
                 $className::resetIndex();
             }
@@ -428,7 +428,7 @@ class Message
     private function getSegmentClass(string $segmentName, array $fields, bool $autoIncrementIndices): Segment
     {
         // If a class exists for the segment under segments/, (e.g., MSH)
-        $className = "Aranyasen\\HL7\\Segments\\$segmentName";
+        $className = "Klongchu\\HL7\\Segments\\$segmentName";
         if (!class_exists($className)) {
             return new Segment($segmentName, $fields);
         }

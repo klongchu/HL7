@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Klongchu\HL7\Tests;
 
-use Aranyasen\Exceptions\HL7Exception;
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Segment;
-use Aranyasen\HL7\Segments\MSH;
-use Aranyasen\HL7\Segments\PID;
+use Klongchu\Exceptions\HL7Exception;
+use Klongchu\HL7\Message;
+use Klongchu\HL7\Segment;
+use Klongchu\HL7\Segments\MSH;
+use Klongchu\HL7\Segments\PID;
 use Exception;
 use InvalidArgumentException;
 use DMS\PHPUnitExtensions\ArraySubset\Assert;

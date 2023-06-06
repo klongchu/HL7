@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Klongchu\HL7\Tests;
 
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Messages\ACK;
-use Aranyasen\HL7\Segments\MSH;
+use Klongchu\HL7\Message;
+use Klongchu\HL7\Messages\ACK;
+use Klongchu\HL7\Segments\MSH;
 use Exception;
 
 class AckTest extends TestCase

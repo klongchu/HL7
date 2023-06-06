@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests\Segments;
+namespace Klongchu\HL7\Tests\Segments;
 
-use Aranyasen\HL7\Segments\OBX;
-use Aranyasen\HL7\Tests\TestCase;
+use Klongchu\HL7\Segments\OBX;
+use Klongchu\HL7\Tests\TestCase;
 
 class OBXTest extends TestCase
 {

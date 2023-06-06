@@ -1,8 +1,8 @@
 <p align="center">
 <a href="https://github.com/senaranya/HL7/actions"><img src="https://github.com/senaranya/hl7/actions/workflows/main_ci.yml/badge.svg?branch=master" alt="CI Status"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/v/stable" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/license" alt="License"></a>
+<a href="https://packagist.org/packages/klongchu/hl7"><img src="https://poser.pugx.org/klongchu/hl7/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/klongchu/hl7"><img src="https://poser.pugx.org/klongchu/hl7/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/klongchu/hl7"><img src="https://poser.pugx.org/klongchu/hl7/license" alt="License"></a>
 </p>
 
 **Important: Minimum supported PHP version has been updated to 8.0 <br>
@@ -18,17 +18,17 @@ A PHP-based HL7 v2.x Parsing, Generation and Sending library, inspired from the 
 ## Installation
 
 ```bash
-composer require aranyasen/hl7
+composer require klongchu/hl7
 ```
 
 ## Usage
 ### Import library
 ```php
 // First, import classes from the library as needed...
-use Aranyasen\HL7; // HL7 factory class
-use Aranyasen\HL7\Message; // If Message is used
-use Aranyasen\HL7\Segment; // If Segment is used
-use Aranyasen\HL7\Segments\MSH; // If MSH is used
+use Klongchu\HL7; // HL7 factory class
+use Klongchu\HL7\Message; // If Message is used
+use Klongchu\HL7\Segment; // If Segment is used
+use Klongchu\HL7\Segments\MSH; // If MSH is used
 // ... and so on
 ```
 

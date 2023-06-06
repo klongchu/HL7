@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Klongchu\HL7\Tests;
 
-use Aranyasen\Exceptions\HL7ConnectionException;
-use Aranyasen\Exceptions\HL7Exception;
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Connection;
+use Klongchu\Exceptions\HL7ConnectionException;
+use Klongchu\Exceptions\HL7Exception;
+use Klongchu\HL7\Message;
+use Klongchu\HL7\Connection;
 use RuntimeException;
 
 class ConnectionTest extends TestCase

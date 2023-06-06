@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7;
+namespace Klongchu\HL7;
 
-use Aranyasen\Exceptions\HL7Exception;
-use Aranyasen\HL7\Segments\MSH;
+use Klongchu\Exceptions\HL7Exception;
+use Klongchu\HL7\Segments\MSH;
 
 trait MessageHelpersTrait
 {

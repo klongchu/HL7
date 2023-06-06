@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Klongchu\HL7\Tests;
 
-use Aranyasen\Exceptions\HL7Exception;
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Messages\ACK;
+use Klongchu\Exceptions\HL7Exception;
+use Klongchu\HL7\Message;
+use Klongchu\HL7\Messages\ACK;
 use Exception;
 use RuntimeException;
 
@@ -16,7 +16,7 @@ use RuntimeException;
  * Create a TCP socket server to receive HL7 messages. It responds to HL7 messages with an ACK
  * It also creates a pipe so client can get back exactly what it sent. Useful for testing...
  * To close the server, send "\n" or "shutdown\n"
- * @package Aranyasen\HL7\Tests
+ * @package Klongchu\HL7\Tests
  */
 trait Hl7ListenerTrait
 {

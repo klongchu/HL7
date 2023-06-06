@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Segments;
+namespace Klongchu\HL7\Segments;
 
-use Aranyasen\HL7\Segment;
+use Klongchu\HL7\Segment;
 
 /**
  * PV2 segment class

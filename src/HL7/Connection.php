@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7;
+namespace Klongchu\HL7;
 
-use Aranyasen\Exceptions\HL7ConnectionException;
-use Aranyasen\Exceptions\HL7Exception;
+use Klongchu\Exceptions\HL7ConnectionException;
+use Klongchu\Exceptions\HL7Exception;
 use Exception;
 use Socket;
 

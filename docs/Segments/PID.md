@@ -1,4 +1,4 @@
-# Aranyasen\HL7\Segments\PID  
+# Klongchu\HL7\Segments\PID  
 
 PID segment class
 
@@ -6,7 +6,7 @@ PID segment class
 
 ## Extend:
 
-Aranyasen\HL7\Segment
+Klongchu\HL7\Segment
 
 ## Methods
 
