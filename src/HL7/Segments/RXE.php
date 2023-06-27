@@ -64,7 +64,17 @@ class RXE extends Segment
         return $this->getField($position);
     }
 
+    public function getGiveUnits(int $position = 5)
+    {
+        return $this->getField($position);
+    }
+
     public function getGiveDosageForm(int $position = 6)
+    {
+        return $this->getField($position);
+    }
+
+    public function getProvidersAdministrationInstructions(int $position = 7)
     {
         return $this->getField($position);
     }
