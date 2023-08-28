@@ -94,6 +94,11 @@ class RXE extends Segment
         return $this->getField($position);
     }
 
+    public function getPharmacyTreatmentSuppliersSpecialDispensingInstructions(int $position = 21)
+    {
+        return $this->getField($position);
+    }
+
     public function getGiveRateAmount(int $position = 23)
     {
         return $this->getField($position);
